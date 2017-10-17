@@ -9,6 +9,8 @@ import (
 	"os"
 	"path"
 	"strconv"
+
+	_ "k8s.io/api/core/v1"
 )
 
 var logPath = path.Join(os.Getenv("HOME"), "file/palm-log.txt")
